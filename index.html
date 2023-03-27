@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hank's Code Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="start-container">
+    <h1>Hank's Code Quiz</h1>
+    <p>Test your knowledge of coding with this quiz.</p>
+    <button id="start-button">Start</button>
+  </div>
+  
+  <div id="quiz-container">
+    <h1>Question <span id="question-number"></span></h1>
+    <p id="question"></p>
+    <div id="choices"></div>
+    <p>Time left: <span id="timer"></span></p>
+  </div>
+  
+  <div id="score-form" style="display:none;">
+    <h1>Your score is <span id="final-score"></span></h1>
+    <form>
+      <label for="initials">Enter your initials:</label>
+      <input type="text" id="initials" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

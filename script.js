@@ -1,19 +1,39 @@
 // Define the questions and answers
 const questions = [
     {
-      question: "?",
-      choices: ["", "", "", ""],
-      answer: ""
+      question: "Which of these tags would display the largest text?",
+      choices: ["p", "h2", "h6", "h4"],
+      answer: "h2"
     },
     {
-      question: " ?",
-      choices: ["", "", "", ""],
-      answer: ""
+      question: "How can you make a numbered list?",
+      choices: ["ol", "dl", "ul", "list"],
+      answer: "ol"
     },
     {
-      question: "?",
-      choices: ["", "", "", ""],
-      answer: ""
+      question: "What is used primarily to add styling to a web page?",
+      choices: ["HTML", "CSS", "Python", "React.js"],
+      answer: "CSS"
+      ,
+
+      question: "What HTML attribute references an external JavaScript file?",
+      choices: ["href", "src", "class", "index"],
+      answer: "src"
+    },
+    {
+      question: "In JavaScript, what element is used to store and manipulate text usually in multiples?",
+      choices: ["Arrays", "Functions", "Variables", "Strings"],
+      answer: "Strings"
+      ,
+
+      question: "What HTML tags are JavaScript code wrapped in?",
+      choices: ["&lt;script&gt;", "&lt;head&gt;", "&lt;link&gt;", "&lt;div&gt;"],
+      answer: "src"
+    },
+    {
+      question: "What is the element called that is used to describe the set of variables, objects, and functions you explicitly have access to?",
+      choices: ["Scope", "Range", "Output Level", "Restriction"],
+      answer: "Scope"
     }
   ];
   
